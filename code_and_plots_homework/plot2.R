@@ -8,7 +8,7 @@ powerData<-subset(powerData,powerData$Date >="2007-02-01" & powerData$Date <="20
 powerData$Date1<-paste(powerData$Date,powerData$Time)
 powerData$Date1<-as.POSIXlt(powerData$Date1,format="%Y-%m-%d %H:%M:%S")
 
-par(cex.lab=.75,cex.axis=.75)
+par(cex.lab=.85,cex.axis=.75)
 with(powerData,{
     plot(Date1,Global_active_power,type="n",xlab="",ylab="")
     lines(Date1,Global_active_power,type="l")
