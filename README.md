@@ -1,4 +1,5 @@
 ## Introduction
+Note: Homework on code_and_plots_homework folder
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
